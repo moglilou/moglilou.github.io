@@ -25,7 +25,7 @@ background("white");
 */
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  img = loadImage("driibig.jpg");
+  img = loadImage("drii.jpg");
   bling = loadImage("bubu.jpg");
   
 }
@@ -38,7 +38,7 @@ function draw() {
     image(img, 0, 0, width,height);
 
   noCursor(); 
-
+  
 //white triangle left 
   strokeWeight(1);
   fill("white");
