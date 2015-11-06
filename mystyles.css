@@ -1,0 +1,40 @@
+body {
+    background-color: purple;
+    color: white;
+    font-family: Helvetica, Arial, Sans-Serif;
+    padding: 20px;
+    border: 10px dotted orange;
+}
+
+
+
+h1 {
+    color: red;
+    font-family: Courier;
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal
+    ;
+}
+
+
+
+.special {
+    color: lime;
+}
+
+
+.maincontent {
+    background: orange;
+    color: red;
+    width: 100px;
+    height: 250px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    
+    
+}
+
