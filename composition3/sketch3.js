@@ -26,7 +26,7 @@ function setup() {
 
 function greet() {
 
-  for (var i=0; i<100; i++) {
+  for (var i=0; i<7; i++) {
     push();
     translate(random(width), random(height));
     rotate(random(2*PI));
@@ -38,7 +38,6 @@ function greet() {
   }
 
 }
-
 
 function windowResized() {
   resizeCanvas(windowWidth,windowHeight);
