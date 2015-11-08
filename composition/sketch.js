@@ -26,19 +26,20 @@ background("white");
 function setup() {
   createCanvas(windowWidth, windowHeight);
   img = loadImage("drii.jpg");
-  bling = loadImage("bubu.jpg");
+  frameRate(100);
   
 }
 
 function draw() {
-	// place your drawing code here
+
     // Bild transparent einfügen
  	  image(img, width, height);
     tint(255, 126);  // Apply transparency without changing color
     image(img, 0, 0, width,height);
 
   noCursor(); 
-  
+
+
 //white triangle left 
   strokeWeight(1);
   fill("white");
@@ -84,6 +85,14 @@ function draw() {
   fill("#7e73e6");
   ellipse(mouseX,mouseY,10,10);
   
+  
+    
+   if (mouseIsPressed)
+    background(img);
+    
+ 
+  print(mouseIsPressed);
+
   
 }
 function windowResized() {
