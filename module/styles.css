@@ -1,0 +1,65 @@
+body {
+	padding: 0; 
+	margin: 0;
+	background-color: #eee;
+}
+
+.module {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -51px;
+	margin-left: -51px;
+	border: 1px solid black;
+}
+
+/* Add your styles below */
+
+p {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	padding: 10px;
+	background-color: yellow;
+}
+
+img {
+	width: 40px;
+	position: absolute;
+	top:25px;
+	left: 50px;
+}
+
+.box {
+	position: absolute;
+	top:50px;
+	left: 10px;
+	background-color: lime;
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+
+}
+
+.overlap {
+	position: absolute;
+	bottom: -20px;
+	right: 20px;
+	width: 10px;
+	height: 40px;
+	background-color: blue;
+	border: 1px solid black;
+
+}
+
+a {
+	color: red;
+}
+
+a:hover {
+	color: black;
+}
+
