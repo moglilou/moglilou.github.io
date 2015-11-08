@@ -12,13 +12,11 @@ function setup() {
 
 
   button = createButton('&hearts;');
-  button.position(random(100, width*.9), random(100,height*.9));
+  button.position(random(80, width*.93), random(80,height*.87));
   button.mousePressed(greet);
 
 
 
-  greeting = createElement('p', 'teenage notepad');
-  greeting.position(300, 20);
 
   textAlign(CENTER)
   textSize(50);
@@ -26,12 +24,12 @@ function setup() {
 
 function greet() {
 
-  for (var i=0; i<7; i++) {
+  for (var i=0; i<100; i++) {
     push();
     translate(random(width), random(height));
     rotate(random(2*PI));
     button = createButton('&#9825');
-    button.position(random(100, width*.9), random(100,height*.9));
+    button.position(random(80, width*.93), random(90,height*.87));
     button.mousePressed(greet);
     pop();
     background(random(188,228),157,random(230,211));
