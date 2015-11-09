@@ -13,26 +13,25 @@ body {
 	left: 50%;
 	margin-top: -51px;
 	margin-left: -51px;
-	border: 1px solid black;
+	border-radius: 10px;
+
 }
 
 /* Add your styles below */
 
 p {
 	margin: 0;
-	text-align: center;
 	font-family: Courier;
-	font-size: 18px;
+	font-size: 19px;
 	padding: 10px;
-	color: pink;
-
+	background-color: #b8b2f5;
 }
 
-/*img {
+img {
 	width: 40px;
 	position: absolute;
 	top:25px;
-	left: 50px;*/
+	left: 50px;
 }
 
 .box {
@@ -58,10 +57,15 @@ p {
 }
 
 a {
-	color: red;
+	color: pink;
 }
 
 a:hover {
-	color: black;
+	color: #c086de;
+	
+}
+
+audio {
+	display: none;
 }
 

@@ -3,29 +3,44 @@
 		<meta charset="UTF-8">
 		<title>MODULE</title>
 		<link href="styles.css" rel="stylesheet" type="text/css">
-	</head>
+		<script src="https://bloggerxtutorials.googlecode.com/files/whitesparkle-min.js" type="text/javascript"></script>
 	<body>
 
 		<!-- This anchor should link to your ARTIFACT -->
-		<a href="http://virtualartifacts.github.io/composition/index.html">
+		<a href="http://moglilou.github.io/composition3/index3.html">
 
-			<div class="module">
+			<div class="module" onmouseover="playVid()">
 
 				<!-- Placing some text on the stage -->
-				<p>Some text</p>
-
+				<br>
+				<p>teenage notepad</p>
+				<audio controls id='myAudio'><source src="XXHARFE.mp3"></audio>
 				<!-- Placing an image on the stage -->
-				<img src="cat.jpg">
+				<!--<img src="cat.jpg">-->
 
 				<!-- Drawing a shape on the stage -->
-				<div class="box"></div>
+				<!--<div class="box"></div> -->
 
 				<!-- Positioning a shape on the stage -->
-				<div class="overlap"></div>
+				<!-- <div class="overlap"></div>-->
 
 			</div>
 
 		</a>
+		
+		<script>
+			var myAudio = document.getElementById("myAudio"); 
+
+function playVid() { 
+	console.log('hello');
+	myAudio.currentTime = 0;
+    myAudio.play(); 
+} 
+
+function pauseVid() { 
+    myAudio.pause(); 
+}
+		</script>
 
 	</body>
 </html>
